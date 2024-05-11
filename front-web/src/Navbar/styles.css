@@ -18,3 +18,12 @@
 .navbar-logo{
     height: 50px;
 }
+
+@media only screen and (max-width: 768px) {
+    .main-navbar {
+        height: 70px;
+        padding-left: 0px;
+        align-items: center;
+        justify-content: center;
+    }
+}
